@@ -20,6 +20,8 @@ Where:
 - $|\mathbf{q}|$ and $|\mathbf{v}_i|$ represent the L2 norms of the respective vectors
 - $R$ is the set of results, containing pairs of vector identifiers and their corresponding similarities
 
+I don't know if this is right. However when we are done. We will compare it with well known vector databases.
 
+---
 
-I don't know if this is right. However when we are done. We will compare it with well known vector databases
+Yo I don't know if it works. Works for small dataset but goes off for larger datasets. Most likely due to the way I update vectors. It overwrites already previously tokens. Also I have no idea how to delete a vector. Is that even possible
