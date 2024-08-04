@@ -8,9 +8,15 @@ Basically, from what I understand.
 
 ### Cosine similarity
 
-$$\text{For each } \mathbf{v}_i \in V:$$
-$$\text{similarity}_i = \frac{\mathbf{q} \cdot \mathbf{v}_i}{|\mathbf{q}| |\mathbf{v}_i|}$$
-$$R = {(i, \text{similarity}_i) : \mathbf{v}_i \in V}$$
+$\text{For each } \mathbf{v}_i \in V: $
+
+$$
+\text{similarity}_i = \frac{\mathbf{q} \cdot \mathbf{v}_i}{|\mathbf{q}| |\mathbf{v}_i|} 
+$$
+
+$$
+R = {(i, \text{similarity}_i) : \mathbf{v}_i \in V}
+$$
 
 Where:
 
